@@ -53,10 +53,6 @@ h5, h6
   color: #888;
   padding-bottom: 15px;}
   
-span
-{ color: #B1521A;
-  text-shadow: none;}
-
 a, a:hover
 { color: #000;
   background: transparent;
@@ -84,7 +80,7 @@ ol li
   margin-right: auto;}
   
 header
-{ height: 150px;
+{ height: 100px;
   background: #1D1D1D;
   background: -moz-linear-gradient(#535353, #000);
   background: -o-linear-gradient(#535353, #000);
@@ -107,9 +103,12 @@ nav
   margin: 0 auto;}    
   
 #welcome_slogan H3
-{ font: bold 300% 'News Cycle', Arial, sans-serif;
-  letter-spacing: -3px;
-  color: #FFF;} 
+{ font-weight: bold;
+    color: #FFF;
+    letter-spacing: 1px;
+    font-size: 300%;
+    font-family: serif;
+} 
   
 #menubar
 { width: 940px;
@@ -153,7 +152,7 @@ ul#nav li.current a, ul#nav li:hover a
   
 #slideshow_container
 { height: 270px;
-  background: #0043A8;
+  background: #47433F;
   padding-top: 20px;}
   
 .slideshow
